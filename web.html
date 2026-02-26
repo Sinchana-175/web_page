@@ -1,23 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My First Web Page</title>
+    <title>Simple Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+        }
+        section {
+            margin: 20px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
 </head>
 <body>
 
-    <h1>Welcome to the Website</h1>
-    <p>This is a simple HTML web page.</p>
+    <header>
+        <h1>My Simple Website</h1>
+    </header>
 
-    <h2>Login</h2>
-    <p>Click to Login</p>
+    <section>
+        <h2>Introduction</h2>
+        <p>This is another basic web page using HTML and CSS.</p>
+    </section>
 
-    <button onclick="showMessage()">Click Me</button>
+    <section>
+        <h2>Contact</h2>
+        <p>Email: example@email.com</p>
+    </section>
 
-    <script>
-        function showMessage() {
-            alert("Hello! Welcome to my website.");
-        }
-    </script>
+    <footer>
+        <p>© 2026 My Website</p>
+    </footer>
 
 </body>
 </html>
